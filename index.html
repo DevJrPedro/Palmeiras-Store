@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="comhttps://fonts.gstatic." crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Palmeiras Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="img" src="./img/Palmeiras_logo.png" alt="Logo Palmeiras" width="80px" height="80px">
+        </div>
+        <div class="nome">Palmeiras Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/camisa 1.png" alt="Camisa 1">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Camisa I</p>
+                    <p class="product-name">Camisa Palmeiras Puma I 26/27</p>
+                    <p class="description">Mais do que uma camisa, é um símbolo de pertencimento. A camisa titular do
+                        Palmeiras traz o verde tradicional que carrega história, conquistas e a força de uma torcida
+                        apaixonada. </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/camisa 2.png" alt="Camisa 2">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Camisa II</p>
+                    <p class="product-name">Camisa Palmeiras Puma II 26/27</p>
+                    <p class="description">A camisa chega com um visual elegante e marcante, trazendo o
+                        branco como base e detalhes que valorizam a tradição do clube com um toque moderno.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/camisa 3.png" alt="Camisa 3">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Camisa III</p>
+                    <p class="product-name">Camisa Palmeiras Puma III 25/26 Listrada</p>
+                    <p class="description">A Camisa  é uma celebração da história gloriosa do Verdão, unindo o clássico design de listras horizontais em verde e branco a uma
+                        estética moderna e sofisticada. Com uma gola polo branca elegante e o escudo imponente no peito, esta
+                        peça foi projetada para o torcedor que carrega o orgulho de ser Palmeiras em todos os momentos.
+                    </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5" />
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg>
+            </button>
+        </div>
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
